@@ -1,11 +1,11 @@
-#### Buy-Sell-Listing-App Workflow Planning
+# Buy-Sell-Listing-App Workflow Planning
 
-## Goal
+# Goal
 Develop a web application for buying and selling clothes that enables users to browse, filter, favorite, and communicate about listed items. Administrators will manage listings and handle sales updates.
 
-## Features
+# Features
 
-# User Features:
+### User Features:
 * Homepage with Featured Items
 * Display popular and new listings on the main feed.
 * Filter and Search
@@ -16,7 +16,7 @@ Develop a web application for buying and selling clothes that enables users to b
 * Messaging
 * Send direct messages to sellers to inquire about items.
 
-# Admin Features:
+### Admin Features:
 * Post Items
 * Create and upload new listings.
 * Manage Listings
@@ -25,38 +25,38 @@ Develop a web application for buying and selling clothes that enables users to b
 * Communication Management
 * Respond to buyer negotiations via app messaging.
 
-## Tech Stack
+# Tech Stack
 
-# Frontend:
+### Frontend:
 * HTML5, CSS3, JavaScript (ES6)
 * jQuery for DOM manipulation.
 * SASS/SCSS for styling.
 
-# Backend:
+### Backend:
 * Node.js with Express.js for server-side logic.
 
-# Database:
+### Database:
 * PostgreSQL with pg library for database management.
 
-# Version Control:
+### Version Control:
 * Git for collaborative development.
 
-## Routes and APIs
+# Routes and APIs
 
-# Public Routes:
+### Public Routes:
 * GET / - Home page with featured listings.
 * GET /items - List all items with filtering options.
 * GET /items/:id - View a specific item.
 * POST /messages - Send a message to a seller.
 
-# Admin Routes:
+### Admin Routes:
 * POST /admin/items - Add new item.
 * DELETE /admin/items/:id - Remove item.
 * PATCH /admin/items/:id/sold - Mark an item as sold.
 * POST /admin/messages - Respond to messages.
 
-## Database Schema
-# Tables:
+# Database Schema
+### Tables:
 * Users
   id (PK)
   username
@@ -85,13 +85,13 @@ Develop a web application for buying and selling clothes that enables users to b
   message
   timestamp
 
-## Development Workflow
+# Development Workflow
 
-# Planning and Setup:
+### Planning and Setup:
 * Define routes and database schema.
 * Initialize Git repository and create branches for features.
 
-# Frontend and Backend Integration:
+### Frontend and Backend Integration:
 * Build RESTful APIs with Express.js.
 * Connect database with PostgreSQL.
 * Develop UI using HTML, CSS (SASS), and jQuery.
