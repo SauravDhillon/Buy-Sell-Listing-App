@@ -59,8 +59,9 @@ Develop a web application for buying and selling clothes that enables users to b
 ### Tables:
 * Users
   id (PK)
-  username
+  name
   email
+  phone_number
   password_hash
 
 * Items
