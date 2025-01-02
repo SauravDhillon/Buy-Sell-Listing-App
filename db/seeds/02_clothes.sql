@@ -1,0 +1,22 @@
+-- clothes table seeds here
+INSERT INTO clothes (admin_id, category, product_name, price, image_url, status) VALUES
+(1, 'tshirts', 'mens red tshirt', 25.99, '/images/mens_red_tshirt.jpg', 'available'),
+(1, 'tshirts', 'mens white tshirt', 25.99, '/images/mens_white_tshirt.jpg', 'available'),
+(1, 'shirts', 'mens cozy lined shirt', 45.99, '/images/mens_cozy_lined_shirt.avif', 'available'),
+(1, 'shirts', 'mens golf shirt', 30.99, '/images/mens_golf_shirt.avif', 'available'),
+(1, 'shirts', 'mens regular fit oxford shirt', 40.99, '/images/mens_regular_fit_oxford_shirt.avif', 'available'),
+(1, 'shorts', 'mens chino shorts', 35.99, '/images/mens_chino_shorts.avif', 'available'),
+(1, 'shorts', 'mens denim shorts', 38.99, '/images/mens_denim_shorts.avif', 'available'),
+(1, 'shorts', 'mens regular fit sweatshorts', 28.99, '/images/mens_regular_fit_sweatshorts.avif', 'available'),
+(1, 'hoodies', 'mens loose fit hooded zipper', 50.99, '/images/mens_loose_fit_hooded_zipper.avif', 'available'),
+(1, 'hoodies', 'mens loose fit printed hoodie', 55.99, '/images/mens_loose_fit_printed_hoodie.avif', 'available'),
+(1, 'hoodies', 'mens regular fit hoodie', 48.99, '/images/mens_regular_fit_hoodie.avif', 'available'),
+(1, 'hoodies', 'mens loose fit sweatshirt', 52.99, '/images/mens_loose_fit_sweatshirt.avif', 'available'),
+(1, 'pants', 'mens regular fit cargo pants', 40.99, '/images/mens_regular_fit_cargo_pants.avif', 'available'),
+(1, 'pants', 'mens regular fit sweat pants', 35.99, '/images/mens_regular_fit_sweatpants.avif', 'available'),
+(1, 'pants', 'mens slim fit cargo pants', 42.99, '/images/mens_slim_fit_cargo_pants.avif', 'available'),
+(1, 'pants', 'mens slim fit pants', 39.99, '/images/mens_slim_fit_pants.avif', 'available'),
+(1, 'jackets & coats', 'mens baseball jacket', 65.99, '/images/mens_baseball_jacket.avif', 'available'),
+(1, 'jackets & coats', 'mens puffer jacket', 85.99, '/images/mens_puffer_jacket.avif', 'available'),
+(1, 'jackets & coats', 'mens regular fit jacket', 70.99, '/images/mens_regular_fit_jacket.avif', 'available'),
+(1, 'jackets & coats', 'mens slim fit wool coat', 90.99, '/images/mens_slim_fit_wool_coat.avif', 'available');

@@ -16,9 +16,9 @@ CREATE TABLE users (
 --Create clothes Table
 CREATE TABLE clothes (
   id SERIAL PRIMARY KEY NOT NULL,
-  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
-  title VARCHAR(255) NOT NULL,
-  description TEXT,
+  admin_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+  category VARCHAR(100) NOT NULL,
+  product_name TEXT,
   price INTEGER NOT NULL,
   image_url VARCHAR(255) NOT NULL,
   status VARCHAR(30) DEFAULT 'available'
@@ -37,6 +37,6 @@ CREATE TABLE messages (
 --Create favorites Table
 CREATE TABLE favorites (
   id SERIAL PRIMARY KEY NOT NULL,
-  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
+  customer_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
   cloth_id INTEGER REFERENCES clothes(id) ON DELETE CASCADE
 );

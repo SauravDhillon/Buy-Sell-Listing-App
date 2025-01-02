@@ -1,3 +1,27 @@
--- Users table seeds here (Example)
-INSERT INTO users (name) VALUES ('Alice');
-INSERT INTO users (name) VALUES ('Kira');
+-- Users table seeds here 
+INSERT INTO users (name, email, password, phone_number) VALUES
+('Mike Brown', 'mike.brown123@gmail.com', 'password123' , '1234567890'),
+('John Smith', 'john.smith456@gmail.com', 'password123' , '1234567891'),
+('Sarah Johnson', 'sarah.johnson789@gmail.com', 'password123' , '1234567892'),
+('Emily Davis', 'emily.davis234@gmail.com', 'password123' , '1234567893'),
+('Chris Wilson', 'chris.wilson567@gmail.com', 'password123' , '1234567894'),
+('Jessica Miller', 'jessica.miller890@gmail.com', 'password123' , '1234567895'),
+('David Lee', 'david.lee123@gmail.com', 'password123' , '1234567896'),
+('Sophia Martinez', 'sophia.martinez456@gmail.com', 'password123' , '1234567897'),
+('Daniel Anderson', 'daniel.anderson789@gmail.com', 'password123' , '1234567898'),
+('Olivia Thomas', 'olivia.thomas234@gmail.com', 'password123' , '1234567899'),
+('James Taylor', 'james.taylor567@gmail.com', 'password123' , '1234567800'),
+('Grace Hernandez', 'grace.hernandez890@gmail.com', 'password123' , '1234567801'),
+('Matthew Moore', 'matthew.moore123@gmail.com', 'password123' , '1234567802'),
+('Ava Jackson', 'ava.jackson456@gmail.com', 'password123' , '1234567803'),
+('Lucas White', 'lucas.white789@gmail.com', 'password123' , '1234567804'),
+('Mia Harris', 'mia.harris234@gmail.com', 'password123' , '1234567805'),
+('Ethan Martin', 'ethan.martin567@gmail.com', 'password123' , '1234567806'),
+('Isabella Thompson', 'isabella.thompson890@gmail.com', 'password123' , '1234567807'),
+('Alexander Garcia', 'alexander.garcia123@gmail.com', 'password123' , '1234567808'),
+('Charlotte Martinez', 'charlotte.martinez456@gmail.com', 'password123' , '1234567809'),
+('Benjamin Robinson', 'benjamin.robinson789@gmail.com', 'password123' , '1234567810'),
+('Amelia Clark', 'amelia.clark234@gmail.com', 'password123' , '1234567811'),
+('Michael Rodriguez', 'michael.rodriguez567@gmail.com', 'password123' , '1234567812'),
+('Ella Lewis', 'ella.lewis890@gmail.com', 'password123' , '1234567813'),
+('William Walker', 'william.walker123@gmail.com', 'password123' , '1234567814');
